@@ -98,11 +98,12 @@ Safety & Evals     : LangSmith, Ragas, DeepEval, Deterministic Guardrails
 ## 📈 Activity & Contribution Velocity
 
 <p align="center">
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=jeevesh2515&show_icons=true&theme=tokyonight&hide_border=true" width="49%" />
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=jeevesh2515&layout=compact&theme=tokyonight&hide_border=true" width="49%" />
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=jeevesh2515&show_icons=true&theme=tokyonight&hide_border=true" height="195" />
+  &nbsp;
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=jeevesh2515&layout=compact&theme=tokyonight&hide_border=true&langs_count=5" height="195" />
 </p>
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=jeevesh2515&theme=tokyo-night&hide_border=true&area=true" width="99%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=jeevesh2515&theme=tokyo-night&hide_border=true&area=true" width="100%" />
 </p>
 
 ---
