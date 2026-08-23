@@ -97,14 +97,21 @@ Safety & Evals     : LangSmith, Ragas, DeepEval, Deterministic Guardrails
 
 ## 📈 Activity & Contribution Velocity
 
-<p align="center">
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=jeevesh2515&show_icons=true&theme=tokyonight&hide_border=true" height="195" />
-  &nbsp;
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=jeevesh2515&layout=compact&theme=tokyonight&hide_border=true&langs_count=5" height="195" />
-</p>
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=jeevesh2515&theme=tokyo-night&hide_border=true&area=true" width="100%" />
-</p>
+<table width="100%">
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=jeevesh2515&show_icons=true&theme=tokyonight&hide_border=true" width="100%" alt="GitHub Statistics" />
+    </td>
+    <td width="50%" align="center" valign="top">
+      <img src="https://streak-stats.demolab.com?user=jeevesh2515&theme=tokyonight&hide_border=true" width="100%" alt="GitHub Streak" />
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" width="100%" align="center" valign="top">
+      <img src="https://github-readme-activity-graph.vercel.app/graph?username=jeevesh2515&theme=tokyo-night&hide_border=true&area=true" width="100%" alt="Contribution Graph" />
+    </td>
+  </tr>
+</table>
 
 ---
 
