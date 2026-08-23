@@ -99,7 +99,7 @@ Safety & Evals     : LangSmith, Ragas, DeepEval, Deterministic Guardrails
 
 <p align="center">
   <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=jeevesh2515&show_icons=true&theme=tokyonight&hide_border=true" width="49%" />
-  <img src="https://streak-stats.demolab.com?user=jeevesh2515&theme=tokyonight&hide_border=true" width="49%" />
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=jeevesh2515&layout=compact&theme=tokyonight&hide_border=true" width="49%" />
 </p>
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=jeevesh2515&theme=tokyo-night&hide_border=true&area=true" width="99%" />
