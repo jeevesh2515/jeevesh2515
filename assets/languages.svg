@@ -65,7 +65,7 @@
             data-testid="lang-progress"
             x="0" 
             y="0"
-            width="316.35" 
+            width="316.21" 
             height="8"
             fill="#3572A5"
           />
@@ -73,9 +73,9 @@
           <rect
             mask="url(#rect-mask)" 
             data-testid="lang-progress"
-            x="316.35" 
+            x="316.21" 
             y="0"
-            width="19.98" 
+            width="19.96" 
             height="8"
             fill="#f34b7d"
           />
@@ -83,9 +83,9 @@
           <rect
             mask="url(#rect-mask)" 
             data-testid="lang-progress"
-            x="336.33000000000004" 
+            x="336.16999999999996" 
             y="0"
-            width="15.48" 
+            width="15.66" 
             height="8"
             fill="#3178c6"
           />
@@ -93,9 +93,9 @@
           <rect
             mask="url(#rect-mask)" 
             data-testid="lang-progress"
-            x="351.81000000000006" 
+            x="351.83" 
             y="0"
-            width="13.38" 
+            width="13.36" 
             height="8"
             fill="#fedf5b"
           />
@@ -103,7 +103,7 @@
           <rect
             mask="url(#rect-mask)" 
             data-testid="lang-progress"
-            x="365.19000000000005" 
+            x="365.19" 
             y="0"
             width="13.81" 
             height="8"
@@ -114,7 +114,7 @@
     <g transform="translate(0, 25)">
       <circle cx="5" cy="6" r="5" fill="#3572A5" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Python (85.73%)
+        Python (85.69%)
       </text>
     </g>
   
@@ -128,14 +128,14 @@
     <g transform="translate(0, 50)">
       <circle cx="5" cy="6" r="5" fill="#3178c6" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        TypeScript (4.20%)
+        TypeScript (4.24%)
       </text>
     </g>
   
     <g transform="translate(150, 50)">
       <circle cx="5" cy="6" r="5" fill="#fedf5b" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Cython (3.63%)
+        Cython (3.62%)
       </text>
     </g>
   
