@@ -1,0 +1,43 @@
+name: Refresh Profile Metrics & Activity Graphs
+
+on:
+  schedule:
+    # Runs automatically every 6 hours
+    - cron: '0 */6 * * *'
+  workflow_dispatch: # Allows manual 1-click trigger from GitHub Actions tab
+  push:
+    branches:
+      - main
+    paths:
+      - 'scripts/update_metrics.py'
+      - '.github/workflows/refresh-metrics.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  refresh-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Fetch and Validate Latest Metrics SVGs
+        run: python3 scripts/update_metrics.py
+
+      - name: Commit and Push Updated Assets
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/*.svg
+          if git diff --staged --quiet; then
+            echo "No changes detected in metrics SVGs."
+          else
+            git commit -m "chore(metrics): auto-refresh profile statistics & activity graphs [skip ci]"
+            git push origin main
+          fi

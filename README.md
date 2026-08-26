@@ -100,15 +100,15 @@ Safety & Evals     : LangSmith, Ragas, DeepEval, Deterministic Guardrails
 <table width="100%">
   <tr>
     <td width="50%" align="center" valign="top">
-      <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=jeevesh2515&show_icons=true&theme=tokyonight&hide_border=true" width="100%" alt="GitHub Statistics" />
+      <img src="./assets/stats.svg" width="100%" alt="GitHub Statistics" />
     </td>
     <td width="50%" align="center" valign="top">
-      <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=jeevesh2515&layout=compact&theme=tokyonight&hide_border=true&card_width=369" width="100%" alt="My Programming Languages" />
+      <img src="./assets/languages.svg" width="100%" alt="My Programming Languages" />
     </td>
   </tr>
   <tr>
     <td colspan="2" width="100%" align="center" valign="top">
-      <img src="https://github-readme-activity-graph-eight.vercel.app/graph?username=jeevesh2515&theme=tokyo-night&hide_border=true&area=true" width="100%" alt="Contribution Graph" />
+      <img src="./assets/activity-graph.svg" width="100%" alt="Contribution Graph" />
     </td>
   </tr>
 </table>
