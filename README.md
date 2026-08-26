@@ -100,15 +100,17 @@ Safety & Evals     : LangSmith, Ragas, DeepEval, Deterministic Guardrails
 <table width="100%">
   <tr>
     <td width="50%" align="center" valign="top">
-      <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=jeevesh2515&show_icons=true&theme=tokyonight&hide_border=true" width="100%" alt="GitHub Statistics" />
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=jeevesh2515&theme=tokyonight" width="100%" alt="GitHub Statistics" />
     </td>
     <td width="50%" align="center" valign="top">
-      <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=jeevesh2515&layout=compact&theme=tokyonight&hide_border=true" width="100%" alt="Top Languages" />
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=jeevesh2515&theme=tokyonight" width="100%" alt="Top Languages by Repository" />
     </td>
   </tr>
   <tr>
-    <td colspan="2" width="100%" align="center" valign="top">
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=jeevesh2515&theme=tokyonight" width="100%" alt="Contributions & Activity Graph" />
+    <td colspan="2" width="100%" align="center" valign="middle">
+      <a href="https://github.com/jeevesh2515">
+        <img src="https://ghchart.rshah.org/2dd4bf/jeevesh2515" width="100%" alt="Jeevesh's Daily Contribution Commit Graph" />
+      </a>
     </td>
   </tr>
 </table>
