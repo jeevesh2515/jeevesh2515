@@ -20,54 +20,68 @@ London, UK &nbsp;•&nbsp; [LinkedIn](https://linkedin.com/in/jeevesh-singale07)
 
 ## 🎙️ Flagship Agentic Architectures
 
-### 🔍 [ExpertIQ Copilot](https://github.com/jeevesh2515/expertiq-copilot)
-**Enterprise-grade expert discovery and research intelligence platform.**
-- **Hybrid Retrieval:** 6-node LangGraph pipeline over ChromaDB + NetworkX with HyDE.
-- **Interactive UI:** Next.js 16 + React 19 client with 3D force-directed D3 knowledge graph.
-- **Verification:** 47 automated tests, Redis caching, LangSmith tracing, and 1-command Docker startup.
-
-[![Next.js 16](https://img.shields.io/badge/Next.js-16-black?style=flat-square&logo=next.js&logoColor=white)](https://github.com/jeevesh2515/expertiq-copilot)
-[![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)](https://github.com/jeevesh2515/expertiq-copilot)
-[![LangGraph](https://img.shields.io/badge/LangGraph-6_Nodes-1C3C3C?style=flat-square)](https://github.com/jeevesh2515/expertiq-copilot)
-[![Tests: 47 Passing](https://img.shields.io/badge/Tests-47_Passing-22c55e?style=flat-square&logo=pytest&logoColor=white)](https://github.com/jeevesh2515/expertiq-copilot)
-
----
-
-### 🏥 [Clinical RAG Workflows](https://github.com/jeevesh2515/clinical-rag-agent)
-**Evidence-based clinical workflow assistant for chronic hypertension care.**
-- **Zero-Hallucination Spine:** Knowledge stored as an OKF (Google's Open Knowledge Format) bundle for deterministic, hallucination-resistant retrieval.
-- **Safety Guardrails:** Edge-level deterministic refusal & clinical calculators (eGFR, MAP).
-- **Evaluation:** 258 passing tests + LangSmith RAG Triad benchmark suite.
-
-[![Tests: 258 Passing](https://img.shields.io/badge/Tests-258_Passing-22c55e?style=flat-square&logo=pytest&logoColor=white)](https://github.com/jeevesh2515/clinical-rag-agent)
-[![Live Demo](https://img.shields.io/badge/Live_Demo-Vercel-0ea5e9?style=flat-square&logo=vercel&logoColor=white)](https://clinical-workflows.vercel.app)
-[![LangSmith](https://img.shields.io/badge/LangSmith-Evaluated-F5C300?style=flat-square)](https://github.com/jeevesh2515/clinical-rag-agent)
-[![Python 3.12](https://img.shields.io/badge/Python-3.12-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/jeevesh2515/clinical-rag-agent)
-
----
-
-### ⚡ [VoxFlow Voice Agent](https://github.com/jeevesh2515/voxflow-voice-agent)
-**Production-grade Bilingual (Hindi/English) Voice AI Agent for FMCG Operations.**
-- **Latency Budget:** Engineered for sub-200ms glass-to-glass turn latency (Amazon Connect → Groq Whisper STT → Llama 3 70B → Edge TTS).
-- **Streaming Stack:** Raw PCM WebSockets + Silero VAD + Groq Whisper STT + Edge TTS.
-- **Stateful Tooling:** Live stock validation, dynamic PO generation, and dispatch tracking with LangGraph.
-
-[![Python 3.11](https://img.shields.io/badge/Python-3.11-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/jeevesh2515/voxflow-voice-agent)
-[![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)](https://github.com/jeevesh2515/voxflow-voice-agent)
-[![LangGraph](https://img.shields.io/badge/LangGraph-Stateful_DAG-1C3C3C?style=flat-square)](https://github.com/jeevesh2515/voxflow-voice-agent)
-[![Latency: Sub--200ms](https://img.shields.io/badge/Latency-Sub--200ms-6366f1?style=flat-square)](https://github.com/jeevesh2515/voxflow-voice-agent)
-
----
-
-### 🛡️ [Readme Guardian](https://github.com/jeevesh2515/readme-guardian)
-**Documentation freshness and drift verification engine for AI codebases.**
-- **Distribution:** Packaged via custom Homebrew Tap: `brew install jeevesh2515/tap/readme-guardian`
-- **Automation:** Automated pre-commit hooks and CI verification badges.
-- **Test Suite:** 15 passing pytest unit tests (100%) and Ruff linter compliance.
-
-[![Homebrew](https://img.shields.io/badge/Homebrew-Available-FBB040?style=flat-square&logo=homebrew&logoColor=black)](https://github.com/jeevesh2515/readme-guardian)
-[![CLI: Python](https://img.shields.io/badge/CLI-Python-blue?style=flat-square)](https://github.com/jeevesh2515/readme-guardian)
-[![Tests: 15 Passing](https://img.shields.io/badge/Tests-15_Passing-22c55e?style=flat-square&logo=pytest&logoColor=white)](https://github.com/jeevesh2515/readme-guardian)
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🔍 <a href="https://github.com/jeevesh2515/expertiq-copilot">ExpertIQ Copilot</a></h3>
+      <p><b>Enterprise research intelligence & expert discovery platform.</b></p>
+      <ul>
+        <li><b>Hybrid RAG:</b> 6-node LangGraph pipeline + ChromaDB + HyDE</li>
+        <li><b>Interactive UI:</b> Next.js 16 + React 19 + 3D D3 graph UI</li>
+        <li><b>Verification:</b> 47 automated tests, Redis cache, Docker deploy</li>
+      </ul>
+      <p>
+        <img src="https://img.shields.io/badge/Next.js-16-black?style=flat-square&logo=next.js&logoColor=white" />
+        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
+        <img src="https://img.shields.io/badge/LangGraph-6_Nodes-1C3C3C?style=flat-square" />
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🏥 <a href="https://github.com/jeevesh2515/clinical-rag-agent">Clinical RAG Workflows</a></h3>
+      <p><b>Evidence-based clinical assistant for chronic hypertension care.</b></p>
+      <ul>
+        <li><b>OKF Spine:</b> Knowledge stored as a Google OKF bundle for 0-hallucination RAG</li>
+        <li><b>Safety Guardrails:</b> Edge-level deterministic refusal & clinical calculators</li>
+        <li><b>Evaluation:</b> 258 passing tests + LangSmith benchmark suite</li>
+      </ul>
+      <p>
+        <img src="https://img.shields.io/badge/Tests-258_Passing-22c55e?style=flat-square&logo=pytest&logoColor=white" />
+        <img src="https://img.shields.io/badge/Live_Demo-Vercel-0ea5e9?style=flat-square&logo=vercel&logoColor=white" />
+        <img src="https://img.shields.io/badge/LangSmith-Evaluated-F5C300?style=flat-square" />
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>⚡ <a href="https://github.com/jeevesh2515/voxflow-voice-agent">VoxFlow Voice Agent</a></h3>
+      <p><b>Bilingual (Hindi/English) Voice AI Agent for FMCG Operations.</b></p>
+      <ul>
+        <li><b>Turn Latency:</b> Sub-200ms glass-to-glass turn latency (Amazon Connect → Groq Whisper STT → Llama 3 70B → Edge TTS)</li>
+        <li><b>Streaming Stack:</b> Raw PCM WebSockets + Silero VAD + Groq Whisper STT + Edge TTS</li>
+        <li><b>Stateful Tools:</b> Live stock validation & dynamic PO generation with LangGraph</li>
+      </ul>
+      <p>
+        <img src="https://img.shields.io/badge/Python-3.11-3776AB?style=flat-square&logo=python&logoColor=white" />
+        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
+        <img src="https://img.shields.io/badge/LangGraph-Stateful_DAG-1C3C3C?style=flat-square" />
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🛡️ <a href="https://github.com/jeevesh2515/readme-guardian">Readme Guardian</a></h3>
+      <p><b>Documentation freshness & drift verification engine for AI codebases.</b></p>
+      <ul>
+        <li><b>Distribution:</b> Packaged via custom Homebrew Tap (<code>brew install</code>)</li>
+        <li><b>Automation:</b> Pre-commit hooks & CI drift verification</li>
+        <li><b>Test Suite:</b> 15 passing pytest unit tests (100%) + Ruff compliance</li>
+      </ul>
+      <p>
+        <img src="https://img.shields.io/badge/Homebrew-Available-FBB040?style=flat-square&logo=homebrew&logoColor=black" />
+        <img src="https://img.shields.io/badge/CLI-Python-blue?style=flat-square" />
+        <img src="https://img.shields.io/badge/Tests-15_Passing-22c55e?style=flat-square&logo=pytest&logoColor=white" />
+      </p>
+    </td>
+  </tr>
+</table>
 
 ---
 
