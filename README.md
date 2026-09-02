@@ -23,25 +23,25 @@ London, UK &nbsp;•&nbsp; [LinkedIn](https://linkedin.com/in/jeevesh-singale07)
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
-      <h3>🔍 <a href="https://github.com/jeevesh2515/expertiq-copilot">ExpertIQ Copilot</a></h3>
-      <p><b>Enterprise research intelligence & expert discovery platform.</b></p>
+      <h3>⚡ <a href="https://github.com/jeevesh2515/voxflow-voice-agent">VoxFlow Voice Agent</a></h3>
+      <p><b>Bilingual (Hindi/EN) Voice AI Agent for FMCG Operations.</b></p>
       <ul>
-        <li><b>Hybrid RAG:</b> 6-node LangGraph pipeline + ChromaDB + HyDE</li>
-        <li><b>Interactive UI:</b> Next.js 16 + React 19 + 3D D3 graph UI</li>
-        <li><b>Verification:</b> 47 automated tests, Redis cache, Docker deploy</li>
+        <li><b>Turn Latency:</b> Engineered for &lt;200ms turn-taking (Connect → Groq Whisper → Llama 3 → Edge TTS)</li>
+        <li><b>Streaming:</b> Raw PCM WebSockets + Silero VAD + Edge TTS</li>
+        <li><b>Stateful Tools:</b> Live stock validation & dynamic PO dispatch with LangGraph</li>
       </ul>
       <p>
-        <img src="https://img.shields.io/badge/Next.js-16-black?style=flat-square&logo=next.js&logoColor=white" />
+        <img src="https://img.shields.io/badge/Python-3.11-3776AB?style=flat-square&logo=python&logoColor=white" />
         <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
-        <img src="https://img.shields.io/badge/LangGraph-6_Nodes-1C3C3C?style=flat-square" />
+        <img src="https://img.shields.io/badge/LangGraph-Stateful_DAG-1C3C3C?style=flat-square" />
       </p>
     </td>
     <td width="50%" valign="top">
       <h3>🏥 <a href="https://github.com/jeevesh2515/clinical-rag-agent">Clinical RAG Workflows</a></h3>
       <p><b>Evidence-based clinical assistant for chronic hypertension care.</b></p>
       <ul>
-        <li><b>OKF Spine:</b> Knowledge stored as a Google OKF bundle for 0-hallucination RAG</li>
-        <li><b>Safety Guardrails:</b> Edge-level deterministic refusal & clinical calculators</li>
+        <li><b>Zero-Hallucination Spine:</b> Knowledge stored as a Google OKF bundle for deterministic RAG</li>
+        <li><b>Safety Guardrails:</b> Edge-level deterministic refusal & clinical calculators (eGFR, MAP)</li>
         <li><b>Evaluation:</b> 258 passing tests + LangSmith benchmark suite</li>
       </ul>
       <p>
@@ -53,22 +53,22 @@ London, UK &nbsp;•&nbsp; [LinkedIn](https://linkedin.com/in/jeevesh-singale07)
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>⚡ <a href="https://github.com/jeevesh2515/voxflow-voice-agent">VoxFlow Voice Agent</a></h3>
-      <p><b>Bilingual (Hindi/English) Voice AI Agent for FMCG Operations.</b></p>
+      <h3>🔍 <a href="https://github.com/jeevesh2515/expertiq-copilot">ExpertIQ Copilot</a></h3>
+      <p><b>Enterprise research intelligence & expert discovery platform.</b></p>
       <ul>
-        <li><b>Turn Latency:</b> Sub-200ms glass-to-glass turn latency (Amazon Connect → Groq Whisper STT → Llama 3 70B → Edge TTS)</li>
-        <li><b>Streaming Stack:</b> Raw PCM WebSockets + Silero VAD + Groq Whisper STT + Edge TTS</li>
-        <li><b>Stateful Tools:</b> Live stock validation & dynamic PO generation with LangGraph</li>
+        <li><b>Hybrid RAG:</b> 6-node LangGraph pipeline over ChromaDB + NetworkX with HyDE</li>
+        <li><b>Interactive UI:</b> Next.js 16 + React 19 + 3D force-directed D3 graph UI</li>
+        <li><b>Verification:</b> 47 automated tests, Redis cache, and Docker deploy</li>
       </ul>
       <p>
-        <img src="https://img.shields.io/badge/Python-3.11-3776AB?style=flat-square&logo=python&logoColor=white" />
+        <img src="https://img.shields.io/badge/Next.js-16-black?style=flat-square&logo=next.js&logoColor=white" />
         <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
-        <img src="https://img.shields.io/badge/LangGraph-Stateful_DAG-1C3C3C?style=flat-square" />
+        <img src="https://img.shields.io/badge/LangGraph-6_Nodes-1C3C3C?style=flat-square" />
       </p>
     </td>
     <td width="50%" valign="top">
       <h3>🛡️ <a href="https://github.com/jeevesh2515/readme-guardian">Readme Guardian</a></h3>
-      <p><b>Documentation freshness & drift verification engine for AI codebases.</b></p>
+      <p><b>Documentation freshness & drift verification engine for AI repos.</b></p>
       <ul>
         <li><b>Distribution:</b> Packaged via custom Homebrew Tap (<code>brew install</code>)</li>
         <li><b>Automation:</b> Pre-commit hooks & CI drift verification</li>
