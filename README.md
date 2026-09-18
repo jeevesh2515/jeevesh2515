@@ -23,16 +23,17 @@ London, UK &nbsp;•&nbsp; [LinkedIn](https://linkedin.com/in/jeevesh-singale07)
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
-      <h3>⚡ <a href="https://github.com/jeevesh2515/voxflow-voice-agent">VoxFlow Voice Agent</a></h3>
-      <p><b>Bilingual (Hindi/EN) Voice AI Agent for FMCG Operations.</b></p>
+      <h3>⚡ <a href="https://www.voxflow.cc/">VoxFlow Voice Agent</a></h3>
+      <p><b>Bilingual Voice AI Agent for Modern Supply Chain & FMCG Operations.</b></p>
       <ul>
-        <li><b>Turn Latency:</b> Engineered for &lt;200ms turn-taking (Connect → Groq Whisper → Llama 3 → Edge TTS)</li>
-        <li><b>Streaming:</b> Raw PCM WebSockets + Silero VAD + Edge TTS</li>
+        <li><b>Turn Latency:</b> Sub-200ms glass-to-glass turn latency (Amazon Connect → Groq Whisper STT → Llama 3 70B → Edge TTS)</li>
+        <li><b>Streaming Stack:</b> Raw PCM WebSockets + Silero VAD + Groq Whisper STT + Edge TTS</li>
         <li><b>Stateful Tools:</b> Live stock validation & dynamic PO dispatch with LangGraph</li>
       </ul>
       <p>
-        <img src="https://img.shields.io/badge/Python-3.11-3776AB?style=flat-square&logo=python&logoColor=white" />
+        <a href="https://www.voxflow.cc/"><img src="https://img.shields.io/badge/Live_SaaS-voxflow.cc-0ea5e9?style=flat-square&logo=vercel&logoColor=white" /></a>
         <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
+        <img src="https://img.shields.io/badge/Tests-273_Passing-22c55e?style=flat-square&logo=pytest&logoColor=white" />
         <img src="https://img.shields.io/badge/LangGraph-Stateful_DAG-1C3C3C?style=flat-square" />
       </p>
     </td>
@@ -45,8 +46,8 @@ London, UK &nbsp;•&nbsp; [LinkedIn](https://linkedin.com/in/jeevesh-singale07)
         <li><b>Evaluation:</b> 258 passing tests + LangSmith benchmark suite</li>
       </ul>
       <p>
+        <a href="https://clinical-workflows.vercel.app"><img src="https://img.shields.io/badge/Live_Demo-Vercel-0ea5e9?style=flat-square&logo=vercel&logoColor=white" /></a>
         <img src="https://img.shields.io/badge/Tests-258_Passing-22c55e?style=flat-square&logo=pytest&logoColor=white" />
-        <img src="https://img.shields.io/badge/Live_Demo-Vercel-0ea5e9?style=flat-square&logo=vercel&logoColor=white" />
         <img src="https://img.shields.io/badge/LangSmith-Evaluated-F5C300?style=flat-square" />
       </p>
     </td>
@@ -63,6 +64,7 @@ London, UK &nbsp;•&nbsp; [LinkedIn](https://linkedin.com/in/jeevesh-singale07)
       <p>
         <img src="https://img.shields.io/badge/Next.js-16-black?style=flat-square&logo=next.js&logoColor=white" />
         <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
+        <img src="https://img.shields.io/badge/Tests-47_Passing-22c55e?style=flat-square&logo=pytest&logoColor=white" />
         <img src="https://img.shields.io/badge/LangGraph-6_Nodes-1C3C3C?style=flat-square" />
       </p>
     </td>
@@ -89,10 +91,10 @@ London, UK &nbsp;•&nbsp; [LinkedIn](https://linkedin.com/in/jeevesh-singale07)
 
 ```
 Core AI & Agents   : LangGraph, LlamaIndex, Semantic Kernel, CrewAI, AutoGen
-Audio & Realtime   : Silero VAD, Whisper ASR, Deepgram, ElevenLabs, WebSockets, WebRTC
+Audio & Realtime   : Amazon Connect, Lex V2, Silero VAD, Groq Whisper, Edge TTS, WebSockets
 RAG & Knowledge    : Hybrid (Dense + BM25), GraphRAG, LanceDB, ChromaDB, pgvector, NetworkX
-Backend & Cloud    : Python 3.11+, FastAPI, Node.js/TypeScript, Docker, Redis, PostgreSQL
-Frontend & UI      : Next.js 14, React 19, TailwindCSS v4, Vite, Web Audio Worklets
+Backend & Cloud    : Python 3.11+, FastAPI, AWS (Connect/Lambda), Docker, Supabase Postgres, Redis
+Frontend & UI      : Next.js 16, React 19, TailwindCSS v4, Vite, D3.js, Web Audio Worklets
 Safety & Evals     : LangSmith, Ragas, DeepEval, Deterministic Guardrails
 ```
 
