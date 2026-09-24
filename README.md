@@ -33,7 +33,7 @@ London, UK &nbsp;•&nbsp; [LinkedIn](https://linkedin.com/in/jeevesh-singale07)
       <p>
         <a href="https://www.voxflow.cc/"><img src="https://img.shields.io/badge/Live_SaaS-voxflow.cc-0ea5e9?style=flat-square&logo=vercel&logoColor=white" /></a>
         <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
-        <img src="https://img.shields.io/badge/Tests-273_Passing-22c55e?style=flat-square&logo=pytest&logoColor=white" />
+        <img src="https://img.shields.io/badge/Tests-952_Passing-22c55e?style=flat-square&logo=pytest&logoColor=white" />
         <img src="https://img.shields.io/badge/LangGraph-Stateful_DAG-1C3C3C?style=flat-square" />
       </p>
     </td>
