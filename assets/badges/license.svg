@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="104" height="28" viewBox="0 0 104 28" fill="none">
+  <rect x="0.5" y="0.5" width="103" height="27" rx="6" fill="#161B22" stroke="#30363D"/>
+  <svg x="8" y="6" width="16" height="16" viewBox="0 0 16 16" fill="#D2A8FF">
+    <path d="M8.75.75a.75.75 0 0 0-1.5 0V2h-.984c-.983 0-1.9.467-2.483 1.258L1.68 6H.75a.75.75 0 0 0 0 1.5h.508l.685 4.793A2.75 2.75 0 0 0 4.664 15h6.672a2.75 2.75 0 0 0 2.721-2.707l.685-4.793h.508a.75.75 0 0 0 0-1.5h-.93l-2.103-2.742A3.25 3.25 0 0 0 9.734 2H8.75V.75Zm-4.966 2.75h4.432c.583 0 1.13.28 1.478.752L11.41 6H4.59l1.716-1.748c.348-.472.895-.752 1.478-.752ZM3.447 7.5h9.106l-.582 4.073a1.25 1.25 0 0 1-1.237 1.427H4.664a1.25 1.25 0 0 1-1.237-1.427L2.845 7.5Z"/>
+  </svg>
+  <text x="28" y="18" fill="#C9D1D9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="11" font-weight="500">License</text>
+  <rect x="69" y="5" width="27" height="18" rx="4" fill="#21262D"/>
+  <text x="82.5" y="18" fill="#D2A8FF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle">MIT</text>
+</svg>

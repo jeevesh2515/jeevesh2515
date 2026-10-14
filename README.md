@@ -2,18 +2,18 @@
 
 # Jeevesh Singale
 
-### **Senior AI & Systems Engineer | Voice AI Systems, Agentic Orchestration & 3D WebGL**
+### **AI & Systems Engineer | Voice AI Systems, Agentic Orchestration & 3D WebGL**
 *Building Low-Latency Voice Agents (<200ms), Zero-Hallucination Clinical RAG, Local-First AML Engines, and In-Browser 3D Systems.*
 
 London, UK &nbsp;•&nbsp; [LinkedIn](https://linkedin.com/in/jeevesh-singale07) &nbsp;•&nbsp; [Portfolio](https://jeevesh-portfolio-website-00.vercel.app/) &nbsp;•&nbsp; [Email](mailto:jeevesh2515@gmail.com) &nbsp;•&nbsp; [Sponsor](https://github.com/sponsors/jeevesh2515)
 
 <br/>
 
-[![GitHub Stars](https://img.shields.io/github/stars/jeevesh2515?style=flat-square&logo=github&color=0ea5e9)](https://github.com/jeevesh2515)
-[![Followers](https://img.shields.io/github/followers/jeevesh2515?style=flat-square&logo=github&color=6366f1)](https://github.com/jeevesh2515)
-[![Profile Views](https://komarev.com/ghpvc/?username=jeevesh2515&color=22c55e&style=flat-square&label=PROFILE+VIEWS)](https://github.com/jeevesh2515)
-[![Sponsor](https://img.shields.io/badge/Sponsor-%E2%9D%A4-ea4aaa?style=flat-square&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/jeevesh2515)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+<a href="https://github.com/jeevesh2515?tab=followers"><img src="./assets/badges/followers.svg" alt="Followers: 6" height="28" /></a>
+<a href="https://github.com/jeevesh2515?tab=repositories"><img src="./assets/badges/stars.svg" alt="Stars: 41" height="28" /></a>
+<a href="https://github.com/jeevesh2515"><img src="./assets/badges/views.svg" alt="Profile Views: 235+" height="28" /></a>
+<a href="https://github.com/sponsors/jeevesh2515"><img src="./assets/badges/sponsor.svg" alt="Sponsor on GitHub" height="28" /></a>
+<a href="https://opensource.org/licenses/MIT"><img src="./assets/badges/license.svg" alt="License: MIT" height="28" /></a>
 
 </div>
 
@@ -198,5 +198,5 @@ I actively build zero-hallucination medical AI systems, high-speed voice streami
 ---
 
 <div align="center">
-  <sub>Engineered with precision by Jeevesh Singale &bull; Open to Senior AI Engineering & Agent Architecture collaborations &bull; London, UK</sub>
+  <sub>Engineered with precision by Jeevesh Singale &bull; Open to AI Engineering & Agent Architecture collaborations &bull; London, UK</sub>
 </div>
