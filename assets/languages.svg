@@ -65,7 +65,7 @@
             data-testid="lang-progress"
             x="0" 
             y="0"
-            width="315.05" 
+            width="315.06" 
             height="8"
             fill="#3572A5"
           />
@@ -73,9 +73,9 @@
           <rect
             mask="url(#rect-mask)" 
             data-testid="lang-progress"
-            x="315.05" 
+            x="315.06" 
             y="0"
-            width="20.09" 
+            width="20.08" 
             height="8"
             fill="#f34b7d"
           />
@@ -105,7 +105,7 @@
             data-testid="lang-progress"
             x="365.15999999999997" 
             y="0"
-            width="13.84" 
+            width="13.83" 
             height="8"
             fill="#555555"
           />
@@ -135,7 +135,7 @@
     <g transform="translate(150, 50)">
       <circle cx="5" cy="6" r="5" fill="#fedf5b" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Cython (3.65%)
+        Cython (3.64%)
       </text>
     </g>
   
