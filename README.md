@@ -34,11 +34,11 @@ Nottingham, UK &nbsp;•&nbsp; [LinkedIn](https://linkedin.com/in/jeevesh-singal
   <tr>
     <td width="50%" valign="top">
       <h3>🎮 <a href="https://jeevesh2515.github.io/WWB/">World War B: Bugfront</a></h3>
-      <p><b>Style-ranked 3D browser FPS built with Three.js and Rapier physics compiled to WebAssembly (playable now).</b></p>
+      <p><b>Style-ranked 3D browser FPS built with Three.js and Rapier physics compiled to WebAssembly (playable live).</b></p>
       <ul>
-        <li><b>Engine:</b> Three.js PBR rendering with Rapier3D WASM physics, zero install, and core assets under 22 MB</li>
-        <li><b>Combat design:</b> 8 escalating waves ending in a boss, 7 style ranks (<code>D</code> &rarr; <code>FRONTBREAKER</code>), 8 stackable augment perks, and an Overdrive state</li>
-        <li><b>Backend:</b> Supabase profiles, progress, and match records under row-level security, plus a Realtime 1v1 bot-race duel mode</li>
+        <li><b>Engine & 3D WebGL:</b> Custom Three.js PBR rendering pipeline paired with Rapier3D WASM physics, procedural M4 viewmodels, wet-surface shaders, and sub-22 MB assets.</li>
+        <li><b>Combat & Style Systems:</b> 8 escalating waves ending in The Warden boss, 7 DMC-style ranks (<code>D</code> &rarr; <code>FRONTBREAKER</code>), 8 stackable augment perks, and Overdrive state.</li>
+        <li><b>Duel Mode & Backend:</b> Supabase RLS profiles, match persistence, and a Realtime 1v1 bot-race duel room featuring live peer discovery, state broadcast, and CPU fallback.</li>
       </ul>
       <p>
         <a href="https://jeevesh2515.github.io/WWB/"><img src="https://img.shields.io/badge/PLAY_NOW-In_Browser-FF9A2E?style=flat-square&logo=googlechrome&logoColor=white" /></a>
@@ -50,19 +50,18 @@ Nottingham, UK &nbsp;•&nbsp; [LinkedIn](https://linkedin.com/in/jeevesh-singal
     </td>
     <td width="50%" valign="top">
       <h3>🎙️ <a href="https://github.com/jeevesh2515/voxflow-voice-agent-case-study">VoxFlow Voice Agent</a></h3>
-      <p><b>Inbound voice agent for depot and logistics operations desks: PO status, stock checks, and dock bookings by phone (supervised-pilot prototype).</b></p>
+      <p><b>Supervised-pilot inbound voice agent for logistics desks handling PO status, stock, and dock bookings.</b></p>
       <ul>
-        <li><b>Telephony pipeline:</b> Amazon Connect + Lex V2 (AWS <code>eu-west-2</code>) &rarr; HMAC-SHA256-signed Lambda bridge &rarr; FastAPI turn engine &rarr; custom <code>AgentRunner</code> state machine on Groq LLMs &rarr; neural TTS</li>
-        <li><b>Tool safety contract:</b> 22 identity-scoped tools; two-factor caller verification, PBKDF2 PIN binding (310k iterations), exact-DID tenant routing, Redis replay ledger, and a spoken-fact grounding guard that blocks unbacked claims</li>
-        <li><b>Verified:</b> <b>963 backend tests passing</b> on the audited snapshot, plus a public case study with 19 contract tests, 21 deterministic synthetic scenarios, a threat model, and documented limitations</li>
+        <li><b>Telephony Pipeline:</b> Amazon Connect + Lex V2 (<code>eu-west-2</code>) bridge &rarr; HMAC-SHA256 Lambda &rarr; FastAPI turn engine &rarr; custom <code>AgentRunner</code> state machine on Groq LLMs.</li>
+        <li><b>Tool Safety Contract:</b> 22 identity-scoped tools, 2FA caller verification, PBKDF2 PIN binding (310k iterations), exact-DID tenant routing, and spoken-fact grounding guards.</li>
+        <li><b>Audited Evidence:</b> <b>963 backend tests passing</b> on the snapshot, public case study with 19 contract tests, 21 deterministic synthetic runs, threat model, and limitations.</li>
       </ul>
       <p>
         <a href="https://github.com/jeevesh2515/voxflow-voice-agent-case-study"><img src="https://img.shields.io/badge/Case_Study-Public-0ea5e9?style=flat-square&logo=github&logoColor=white" /></a>
         <a href="https://www.voxflow.cc/"><img src="https://img.shields.io/badge/Site-voxflow.cc-0ea5e9?style=flat-square&logo=vercel&logoColor=white" /></a>
         <img src="https://img.shields.io/badge/Tests-963_Passing-22c55e?style=flat-square&logo=pytest&logoColor=white" />
         <img src="https://img.shields.io/badge/Amazon_Connect-Lex_V2-FF9900?style=flat-square&logo=amazonwebservices&logoColor=white" />
-        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
-        <img src="https://img.shields.io/badge/Groq-LLM-F55036?style=flat-square" />
+        <img src="https://img.shields.io/badge/FastAPI-Groq-009688?style=flat-square&logo=fastapi&logoColor=white" />
       </p>
     </td>
   </tr>
@@ -70,11 +69,11 @@ Nottingham, UK &nbsp;•&nbsp; [LinkedIn](https://linkedin.com/in/jeevesh-singal
   <tr>
     <td width="50%" valign="top">
       <h3>🛡️ <a href="https://github.com/jeevesh2515/finsentinel-case-study">FinSentinel AML Investigation Engine</a></h3>
-      <p><b>Local-first AML investigation assistant: deterministic triage, evidence packs, and human-reviewed cases (closed at pre-pilot milestone).</b></p>
+      <p><b>Local-first AML investigation assistant: deterministic triage, evidence packs, and audit-logged cases.</b></p>
       <ul>
-        <li><b>Tenant isolation:</b> Python backend on PostgreSQL row-level security with tenant-scoped ingestion and an append-only audit trail</li>
-        <li><b>Performance engineering:</b> Found and fixed an O(n&sup2;) ranking defect that cut evidence-pack assembly from <b>1,070 ms to 43.86 ms p50</b>. A CI benchmark gate (p95 &lt; 60 ms) now locks it in. Scoring runs at 6.27 ms p50 (137 events/s).</li>
-        <li><b>Verified:</b> <b>585 unit + 186 integration tests</b>, 7 Playwright E2E tests, and 29/29 pipeline checks at the release gate; synthetic data only, with no fraud-detection performance claimed</li>
+        <li><b>Tenant Isolation:</b> Python backend backed by PostgreSQL row-level security (RLS), tenant-scoped transaction ingestion, and an append-only cryptographic audit trail.</li>
+        <li><b>Performance Engineering:</b> Fixed an O(n&sup2;) ranking defect, cutting evidence-pack assembly from <b>1,070 ms to 43.86 ms p50</b>, locked in by a CI benchmark gate (p95 &lt; 60 ms).</li>
+        <li><b>Verification & Rigour:</b> <b>771 tests (585 unit + 186 integration)</b>, 7 Playwright E2E suites, 29/29 release checks on synthetic data; explicitly disclaims unverified fraud rates.</li>
       </ul>
       <p>
         <a href="https://github.com/jeevesh2515/finsentinel-case-study"><img src="https://img.shields.io/badge/Case_Study-Public-0ea5e9?style=flat-square&logo=github&logoColor=white" /></a>
@@ -86,18 +85,18 @@ Nottingham, UK &nbsp;•&nbsp; [LinkedIn](https://linkedin.com/in/jeevesh-singal
     </td>
     <td width="50%" valign="top">
       <h3>🏥 <a href="https://clinical-workflows.vercel.app">Clinical RAG Agent</a></h3>
-      <p><b>Evidence-based clinical workflow assistant for hypertension care, with safety-first guardrails (live).</b></p>
+      <p><b>Evidence-based clinical workflow assistant for hypertension care, built with safety-first guardrails.</b></p>
       <ul>
-        <li><b>Knowledge spine:</b> curated Open Knowledge Format (OKF) concepts with hybrid retrieval (dense + BM25 + Cohere rerank) orchestrated by LangGraph</li>
-        <li><b>Deterministic calculators:</b> eGFR (CKD-EPI 2009), MAP, pulse pressure, and BMI are exposed as MCP tools, so the LLM never does clinical arithmetic</li>
-        <li><b>Evaluated:</b> <b>250+ automated tests</b>, a 55-question golden eval set, and LangSmith tracing with RAGAS metrics; it is labelled not clinically validated</li>
+        <li><b>Knowledge Spine:</b> Curated Open Knowledge Format (OKF) clinical concepts with hybrid retrieval (dense embeddings + BM25 + Cohere rerank) orchestrated via LangGraph.</li>
+        <li><b>Deterministic Calculators:</b> Clinical formulas (eGFR CKD-EPI, MAP, pulse pressure, BMI) exposed as external MCP tools, ensuring the LLM never performs clinical arithmetic.</li>
+        <li><b>Evaluated & Traced:</b> <b>250+ automated tests</b>, 55-question golden evaluation dataset, and LangSmith tracing with RAGAS metrics; prominently labelled not clinically validated.</li>
       </ul>
       <p>
         <a href="https://clinical-workflows.vercel.app"><img src="https://img.shields.io/badge/Live_Demo-Vercel-0ea5e9?style=flat-square&logo=vercel&logoColor=white" /></a>
         <a href="https://github.com/jeevesh2515/clinical-rag-agent"><img src="https://img.shields.io/badge/Repo-clinical--rag--agent-blue?style=flat-square&logo=github&logoColor=white" /></a>
         <img src="https://img.shields.io/badge/LangGraph-Orchestrated-1C3C3C?style=flat-square" />
-        <img src="https://img.shields.io/badge/MCP-Tools-6366F1?style=flat-square" />
-        <img src="https://img.shields.io/badge/LangSmith-RAGAS-F5C300?style=flat-square" />
+        <img src="https://img.shields.io/badge/MCP-Calculators-6366F1?style=flat-square" />
+        <img src="https://img.shields.io/badge/Tests-250+_Passing-22c55e?style=flat-square&logo=pytest&logoColor=white" />
       </p>
     </td>
   </tr>
@@ -105,32 +104,34 @@ Nottingham, UK &nbsp;•&nbsp; [LinkedIn](https://linkedin.com/in/jeevesh-singal
   <tr>
     <td width="50%" valign="top">
       <h3>🔍 <a href="https://expertiq-copilot.vercel.app">ExpertIQ Copilot</a></h3>
-      <p><b>Expert discovery and research intelligence platform (live).</b></p>
+      <p><b>Expert discovery and research platform combining hybrid vector search with interactive knowledge graphs.</b></p>
       <ul>
-        <li><b>Hybrid RAG + knowledge graph:</b> a 6-node LangGraph pipeline (analyse &rarr; vector search &rarr; graph expand &rarr; rerank &rarr; summarise &rarr; respond) over ChromaDB and NetworkX, with HyDE and parent-child chunking</li>
-        <li><b>Interactive UI:</b> Next.js 16 + React 19 frontend with a 3D force-directed expert graph</li>
-        <li><b>Engineering:</b> Redis caching, Docker Compose, a RAGAS harness with LangSmith tracing, and a 47-case unit and integration suite</li>
+        <li><b>Hybrid RAG Pipeline:</b> 6-node LangGraph workflow (analyse &rarr; vector search &rarr; graph expand &rarr; rerank &rarr; summarise &rarr; respond) over ChromaDB and NetworkX with HyDE.</li>
+        <li><b>Interactive 3D UI:</b> Next.js 16 + React 19 interface featuring a 3D force-directed knowledge graph for visualizing co-authorship networks, clusters, and citation paths.</li>
+        <li><b>Production Harness:</b> Multi-tiered Redis caching, Docker Compose containerization, LangSmith-traced RAGAS evals, and a verified 47-case unit and integration test suite.</li>
       </ul>
       <p>
         <a href="https://expertiq-copilot.vercel.app"><img src="https://img.shields.io/badge/Live_Demo-Vercel-0ea5e9?style=flat-square&logo=vercel&logoColor=white" /></a>
         <a href="https://github.com/jeevesh2515/expertiq-copilot"><img src="https://img.shields.io/badge/Repo-expertiq--copilot-blue?style=flat-square&logo=github&logoColor=white" /></a>
         <img src="https://img.shields.io/badge/Next.js-16-black?style=flat-square&logo=next.js&logoColor=white" />
         <img src="https://img.shields.io/badge/LangGraph-6_Nodes-1C3C3C?style=flat-square" />
-        <img src="https://img.shields.io/badge/Redis-Cache-DC382D?style=flat-square&logo=redis&logoColor=white" />
+        <img src="https://img.shields.io/badge/Tests-47_Passing-22c55e?style=flat-square&logo=pytest&logoColor=white" />
       </p>
     </td>
     <td width="50%" valign="top">
       <h3>🧰 <a href="https://github.com/jeevesh2515/pre-push-verify">Developer Tooling for AI Coding Agents</a></h3>
-      <p><b>Guardrails that keep AI-assisted code safe and its docs accurate.</b></p>
+      <p><b>Zero-telemetry local guardrails that block credential leaks, enforce test gates, and audit README facts.</b></p>
       <ul>
-        <li><b>pre-push-verify:</b> blocks secret leaks (30+ patterns plus Shannon entropy, with redacted output), runs the project's test suite before push, and applies 5 code-pruning rules (delete, stdlib, native, YAGNI, shrink)</li>
-        <li><b>readme-guardian:</b> keeps managed README facts current with <code>--check</code> / <code>--status</code>; v1.1.2 is published on PyPI and npm (<code>pipx install readme-guardian</code>)</li>
-        <li><b>Agent-ready:</b> local-first with no telemetry; slash commands for Claude Code and Antigravity, and a git hook for every other editor</li>
+        <li><b>Leak Prevention & Gates:</b> <code>pre-push-verify</code> intercepts commits using 30+ regex rules and Shannon entropy to halt leaks, blocking pushes on failed tests with 5 pruning rules.</li>
+        <li><b>README Verification CLI:</b> <code>readme-guardian</code> v1.1.2 on PyPI and npm (<code>pipx install readme-guardian</code>) audits repository metrics and claims using <code>--check</code> and <code>--status</code>.</li>
+        <li><b>Agent Native Design:</b> Local-first architecture engineered for Claude Code and Antigravity slash commands with Git hook integration to ensure auditable AI pair programming.</li>
       </ul>
       <p>
         <a href="https://github.com/jeevesh2515/pre-push-verify"><img src="https://img.shields.io/badge/Repo-pre--push--verify-blue?style=flat-square&logo=github&logoColor=white" /></a>
         <a href="https://pypi.org/project/readme-guardian/"><img src="https://img.shields.io/badge/PyPI-readme--guardian-3775A9?style=flat-square&logo=pypi&logoColor=white" /></a>
         <a href="https://www.npmjs.com/package/readme-guardian"><img src="https://img.shields.io/badge/npm-readme--guardian-CB3837?style=flat-square&logo=npm&logoColor=white" /></a>
+        <img src="https://img.shields.io/badge/Zero-Telemetry-555555?style=flat-square" />
+        <img src="https://img.shields.io/badge/Hooks-Claude_Code_%26_AGY-0ea5e9?style=flat-square" />
       </p>
     </td>
   </tr>
